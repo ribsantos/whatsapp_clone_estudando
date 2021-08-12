@@ -4,6 +4,7 @@ import React, {useState, useEffect} from 'react';
 import './App.css';
 
 import ChatListItem from './components/ChatListItem/ChatListItem';
+import ChatIntro from './components/ChatIntro/ChatIntro';
 
 import DonutLargeIcon from '@material-ui/icons/DonutLarge';
 import ChatIcon from '@material-ui/icons/Chat';
@@ -34,7 +35,7 @@ const App = () => {
 
                 <div className="search">
                     <div className="search--input">
-                        <SearchIcon  fontSize="small" tyle={{color: '#919191'}} />
+                        <SearchIcon  fontSize="small" style={{color: '#919191'}} />
                         <input type="search" placeholder="Procurar ou iniciar uma nova conversa" />
                     </div>
                 </div>

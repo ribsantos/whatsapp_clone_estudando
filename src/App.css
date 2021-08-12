@@ -3,15 +3,25 @@
 }
 
 body {
-    background-color: #d2dbdc;
+    background-color: #090e11;
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+#root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
 .app-window {
     display: flex;
-    height: 100vh;
+    height: calc(100vh - 38px);
     background: #ededed;
+    width: 73vw;
+    /* box-shadow: 0px 0px 10px 10px rgba(121, 121, 121, 0.2);; */
 }
 
 .sidebar {
@@ -19,7 +29,7 @@ body {
     max-width: 415px;
     display: flex;
     flex-direction: column;
-    border-right: 1px solid #ddd;
+    border-right: 1px solid #2a2f32;
 }
 
 header {
@@ -28,7 +38,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 0 15px;
-    background: rgb(17, 17, 17);
+    background: #2a2f32;
 }
 
 .header--avatar {
@@ -53,13 +63,13 @@ cursor: pointer;
 }
 
 .search {
-    background: f6f6f6;
-    border-bottom: 1px solid #eee;
+    background: #131c21;
+    border-bottom: 1px solid #2a2f32;
     padding: 5px 15px;
 }
 
 .search--input {
-    background-color: white;
+    background-color: #2a2f32;
     height: 40px;
     border-radius: 20px;
     display: flex;
@@ -73,11 +83,13 @@ cursor: pointer;
     outline: 0;
     background: transparent;
     margin-left: 10px;
+    text-align: center;
+    color: #919191;
 }
 
 .chatlist {
     flex: 1;
-    background-color: #fff;
+    background-color: #131c21;
     overflow-y: auto;
 }
 
@@ -87,7 +99,7 @@ cursor: pointer;
 }
 
 .chatlist::-webkit-scrollbar-thumb{
-    background: rgb(17, 17, 17, 0.2);
+    background: rgba(143, 143, 143, 0.2);
 }
 
 
@@ -107,5 +119,7 @@ cursor: pointer;
 
 
     .contentarea {
-
+        flex: 1;
+        background-image: url("https://previews.123rf.com/images/natashapankina/natashapankina1703/natashapankina170300078/72806171-seamless-pattern-with-hand-drawn-doodle-postal-elements-icon-set-vector-illustration-isolated-post-s.jpg");
+        background-size: cover;
     }

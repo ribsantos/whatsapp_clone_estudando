@@ -8,12 +8,12 @@ export default () => {
 
             <div className="chatListItem--lines">
                 <div className="chatListItem--line">  
-                    <div className="chatListItem--name">Texugay</div>
+                    <div className="chatListItem--name">Texugo</div>
                     <div className="chatListItem--date">02:00</div>
                 </div>
                 <div className="chatListItem--line">    
                     <div className="chatListItem--lastMsg">
-                        <p>certo dia, a beira mar, apareceu um jovem galileu, ngm podia imaginar que alguém pudesse amar como ele amava, e seu nome era jesus de nazare</p>
+                        <p>Eu sou ruim no valorant, eu sou ruim no valorant, eu sou ruim no valorant</p>
                     </div>
                 </div>
             </div>
